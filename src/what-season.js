@@ -1,5 +1,4 @@
 module.exports = function getSeason(date) {
-    console.log(type(date));
     if (type(date) === 'date' || type(date) === 'undefined'){
       try {
         switch (date.getMonth()) {
